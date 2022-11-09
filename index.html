@@ -7,9 +7,62 @@
     <title>Document</title>
     <style>
         
+        section {
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+            grid-template-columns: repeat(5, 12vw);
+            grid-template-rows: repeat(5, 12vw);
+            /* width: 60vw;
+            height: 60vw; */
+            background-color: #ddd;
+            position: absolute;
+            /* top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        } */
+        /* top: calc(50% - 30vw);
+        left: calc(50% - 30vw); */
+            top: 50%;
+            left: 50%;
+            margin: -30vw 0 0 -30vw;
+        }
+
+        div {
+            background-color: white;
+        }
+
+        div:nth-child(2n) {
+            background-color: black;
+        }
     </style>
 </head>
 <body>
-    
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
 </body>
 </html>
